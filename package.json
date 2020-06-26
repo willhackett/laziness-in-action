@@ -4,8 +4,11 @@
   "description": "Because I always forget to reserve a time",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --headless"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.9.0"
+  }
 }
