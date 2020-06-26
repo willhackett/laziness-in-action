@@ -19,5 +19,5 @@ Create a `config.js` file in the root containing the following:
 You can use `crontab` for this
 
 ```
-1 0 * * *  cd /Your/Code/Path && yarn test
+1 0 * * *       cd ~path to script~ && ~path to nodejs~/node ./node_modules/.bin/cypress run --headless
 ```
